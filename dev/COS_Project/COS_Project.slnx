@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="COS_Project.vcxproj" Id="a2edb3bc-be1b-450a-a54b-d03df16e3b50" />
+</Solution>
