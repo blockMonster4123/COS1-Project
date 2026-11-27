@@ -20,6 +20,12 @@ public:
     int getHardFireRate() const;
     int getSkeletonHealth() const;
 
+    // Spider variables for damage and health
+    int getSpiderEasyDamage() const;
+    int getSpiderNormalDamage() const;
+    int getSpiderHardDamage() const;
+    int getSpiderHealth() const;
+
 private:
     // Zombie stats
     double easyZombieDamage = 2.5;
@@ -36,4 +42,10 @@ private:
     int normalFireRate = 3;
     int hardFireRate = 2;
     int skeletonHealth = 20;
+
+    // Spider stats
+    int easySpiderDamage = 2;
+    int normalSpiderDamage = 2;
+    int hardSpiderDamage = 3;
+    int spiderHealth = 16;
 };
