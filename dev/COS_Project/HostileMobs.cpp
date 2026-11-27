@@ -20,7 +20,7 @@ HostileMobs::HostileMobs() {
 	skeletonHardDamage = skeletonHardDamageRange(generator);
 }
 
-// Returning the zombie damage for the different difficulties
+// Returning the zombie damage and health for the different difficulties
 double HostileMobs::getEasyZombieDamage() const {
 	return easyZombieDamage;
 }
@@ -41,7 +41,7 @@ int HostileMobs::getLeaderZombieHealth() const {
 	return leaderZombieHealth;
 }
 
-// Returning the skeleton damage for the different difficulties
+// Returning the skeleton damage and health for the different difficulties
 int HostileMobs::getSkeletonEasyDamage() const {
 	return skeletonEasyDamage;
 }
@@ -68,4 +68,21 @@ int HostileMobs::getHardFireRate() const {
 
 int HostileMobs::getSkeletonHealth() const {
 	return skeletonHealth;
+}
+
+// Returning the spider damage and health for the different difficulties
+int HostileMobs::getSpiderEasyDamage() const {
+	return easySpiderDamage;
+}
+
+int HostileMobs::getSpiderNormalDamage() const {
+	return normalSpiderDamage;
+}
+
+int HostileMobs::getSpiderHardDamage() const {
+	return hardSpiderDamage;
+}
+
+int HostileMobs::getSpiderHealth() const {
+	return spiderHealth;
 }
