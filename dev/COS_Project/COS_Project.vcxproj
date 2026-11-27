@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="HostileMobs.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PlayerSteve.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HostileMobs.h" />
+    <ClInclude Include="PlayerSteve.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
